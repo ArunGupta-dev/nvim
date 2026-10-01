@@ -1,4 +1,5 @@
 require("config.lazy")
+require("config.float_terminal")
 vim.opt.clipboard = "unnamedplus"
 print("Ready for battel....")
 
@@ -30,7 +31,6 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "120"
 
 -- options ends here
-
 
 -- undo tree stuff
 vim.opt.swapfile = false

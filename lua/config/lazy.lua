@@ -21,7 +21,7 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim (Line 27)
 require("lazy").setup({
   spec = {
-    { "rose-pine/neovim",       config = function() vim.cmd.colorscheme("rose-pine") end },
+    { "sainnhe/gruvbox-material", config = function() vim.cmd.colorscheme("gruvbox-material") end },
     { import = "config.plugins" },
   },
 

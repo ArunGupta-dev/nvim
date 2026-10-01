@@ -12,7 +12,7 @@ vim.opt.clipboard = "unnamedplus"
 
 
 vim.diagnostic.config({
-  virtual_text = true,    -- Enable inline error messages at the end of lines
-  underline = true,       -- Keep red squiggly underlines under errors
+  virtual_text = true,     -- Enable inline error messages at the end of lines
+  underline = true,        -- Keep red squiggly underlines under errors
   update_in_insert = true, -- Update error messages live while typing in insert mode
 })
