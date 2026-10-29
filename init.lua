@@ -4,7 +4,6 @@ vim.opt.clipboard = "unnamedplus"
 print("Ready for battel....")
 
 -- more options to set to make this good
-
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
